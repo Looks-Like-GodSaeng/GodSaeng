@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A30D3D3C2A7FC383005F2E1F /* CalendarDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D3B2A7FC383005F2E1F /* CalendarDateCell.swift */; };
+		A30D3D3F2A7FC3C3005F2E1F /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D3E2A7FC3C3005F2E1F /* TimeTableView.swift */; };
+		A30D3D412A7FC59B005F2E1F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D402A7FC59B005F2E1F /* SettingView.swift */; };
 		A3735A232A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3735A222A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift */; };
-		A3735A252A6CD8EB00644DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3735A242A6CD8EB00644DAE /* ContentView.swift */; };
+		A3735A252A6CD8EB00644DAE /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3735A242A6CD8EB00644DAE /* CalendarView.swift */; };
 		A3735A272A6CD8ED00644DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3735A262A6CD8ED00644DAE /* Assets.xcassets */; };
 		A3735A2A2A6CD8ED00644DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3735A292A6CD8ED00644DAE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A30D3D3B2A7FC383005F2E1F /* CalendarDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateCell.swift; sourceTree = "<group>"; };
+		A30D3D3E2A7FC3C3005F2E1F /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
+		A30D3D402A7FC59B005F2E1F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		A3735A1F2A6CD8EB00644DAE /* LooksLikeGodSaeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LooksLikeGodSaeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3735A222A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooksLikeGodSaengApp.swift; sourceTree = "<group>"; };
-		A3735A242A6CD8EB00644DAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3735A242A6CD8EB00644DAE /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A3735A262A6CD8ED00644DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3735A292A6CD8ED00644DAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +38,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A30D3D322A7FBAF9005F2E1F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A30D3D362A7FBE29005F2E1F /* Views */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A30D3D332A7FBC83005F2E1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3735A222A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift */,
+				A30D3D372A7FBE31005F2E1F /* Components */,
+				A30D3D382A7FBEBA005F2E1F /* CalendarViews */,
+				A30D3D392A7FBEE9005F2E1F /* TimeTableViews */,
+				A30D3D3A2A7FBF43005F2E1F /* SettingViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A30D3D342A7FBCB4005F2E1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A30D3D352A7FBE0E005F2E1F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A30D3D362A7FBE29005F2E1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A30D3D372A7FBE31005F2E1F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A30D3D3B2A7FC383005F2E1F /* CalendarDateCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A30D3D382A7FBEBA005F2E1F /* CalendarViews */ = {
+			isa = PBXGroup;
+			children = (
+				A3735A242A6CD8EB00644DAE /* CalendarView.swift */,
+			);
+			path = CalendarViews;
+			sourceTree = "<group>";
+		};
+		A30D3D392A7FBEE9005F2E1F /* TimeTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				A30D3D3E2A7FC3C3005F2E1F /* TimeTableView.swift */,
+			);
+			path = TimeTableViews;
+			sourceTree = "<group>";
+		};
+		A30D3D3A2A7FBF43005F2E1F /* SettingViews */ = {
+			isa = PBXGroup;
+			children = (
+				A30D3D402A7FC59B005F2E1F /* SettingView.swift */,
+			);
+			path = SettingViews;
+			sourceTree = "<group>";
+		};
 		A3735A162A6CD8EB00644DAE = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +130,10 @@
 		A3735A212A6CD8EB00644DAE /* LooksLikeGodSaeng */ = {
 			isa = PBXGroup;
 			children = (
-				A3735A222A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift */,
-				A3735A242A6CD8EB00644DAE /* ContentView.swift */,
+				A30D3D322A7FBAF9005F2E1F /* Extensions */,
+				A30D3D332A7FBC83005F2E1F /* Views */,
+				A30D3D342A7FBCB4005F2E1F /* Model */,
+				A30D3D352A7FBE0E005F2E1F /* ViewModel */,
 				A3735A262A6CD8ED00644DAE /* Assets.xcassets */,
 				A3735A282A6CD8ED00644DAE /* Preview Content */,
 			);
@@ -137,7 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3735A252A6CD8EB00644DAE /* ContentView.swift in Sources */,
+				A30D3D3F2A7FC3C3005F2E1F /* TimeTableView.swift in Sources */,
+				A30D3D412A7FC59B005F2E1F /* SettingView.swift in Sources */,
+				A3735A252A6CD8EB00644DAE /* CalendarView.swift in Sources */,
+				A30D3D3C2A7FC383005F2E1F /* CalendarDateCell.swift in Sources */,
 				A3735A232A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
