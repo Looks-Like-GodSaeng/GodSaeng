@@ -11,7 +11,7 @@ import SwiftUI
 struct LooksLikeGodSaengApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CalendarView()
         }
     }
 }
