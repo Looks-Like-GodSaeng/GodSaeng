@@ -139,3 +139,5 @@ xcuserdata
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,xcode,swift,swiftpackagemanager
 LooksLikeGodSaeng/LooksLikeGodSaeng.xcodeproj/project.xcworkspace/xcuserdata/hangyeongjun.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcuserstate
+*.xcuserstate

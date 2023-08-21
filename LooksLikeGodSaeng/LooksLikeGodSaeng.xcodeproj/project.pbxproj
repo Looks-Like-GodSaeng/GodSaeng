@@ -10,6 +10,10 @@
 		A30D3D3C2A7FC383005F2E1F /* CalendarDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D3B2A7FC383005F2E1F /* CalendarDateCell.swift */; };
 		A30D3D3F2A7FC3C3005F2E1F /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D3E2A7FC3C3005F2E1F /* TimeTableView.swift */; };
 		A30D3D412A7FC59B005F2E1F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D402A7FC59B005F2E1F /* SettingView.swift */; };
+		A30D3D432A7FDF6D005F2E1F /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D422A7FDF6D005F2E1F /* Color+Extension.swift */; };
+		A30D3D452A7FDF86005F2E1F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D3D442A7FDF86005F2E1F /* UIColor+Extension.swift */; };
+		A363A7292A93421500BE1532 /* View+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363A7282A93421500BE1532 /* View+UIFont.swift */; };
+		A363A72B2A93422600BE1532 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A363A72A2A93422600BE1532 /* UIFont+Extension.swift */; };
 		A3735A232A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3735A222A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift */; };
 		A3735A252A6CD8EB00644DAE /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3735A242A6CD8EB00644DAE /* CalendarView.swift */; };
 		A3735A272A6CD8ED00644DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3735A262A6CD8ED00644DAE /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 		A30D3D3B2A7FC383005F2E1F /* CalendarDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateCell.swift; sourceTree = "<group>"; };
 		A30D3D3E2A7FC3C3005F2E1F /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
 		A30D3D402A7FC59B005F2E1F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		A30D3D422A7FDF6D005F2E1F /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A30D3D442A7FDF86005F2E1F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A363A7282A93421500BE1532 /* View+UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+UIFont.swift"; sourceTree = "<group>"; };
+		A363A72A2A93422600BE1532 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		A3735A1F2A6CD8EB00644DAE /* LooksLikeGodSaeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LooksLikeGodSaeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3735A222A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooksLikeGodSaengApp.swift; sourceTree = "<group>"; };
 		A3735A242A6CD8EB00644DAE /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -41,7 +49,10 @@
 		A30D3D322A7FBAF9005F2E1F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A30D3D362A7FBE29005F2E1F /* Views */,
+				A30D3D362A7FBE29005F2E1F /* View */,
+				A30D3D422A7FDF6D005F2E1F /* Color+Extension.swift */,
+				A30D3D442A7FDF86005F2E1F /* UIColor+Extension.swift */,
+				A363A72A2A93422600BE1532 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -72,11 +83,12 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		A30D3D362A7FBE29005F2E1F /* Views */ = {
+		A30D3D362A7FBE29005F2E1F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A363A7282A93421500BE1532 /* View+UIFont.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		A30D3D372A7FBE31005F2E1F /* Components */ = {
@@ -218,11 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30D3D452A7FDF86005F2E1F /* UIColor+Extension.swift in Sources */,
 				A30D3D3F2A7FC3C3005F2E1F /* TimeTableView.swift in Sources */,
+				A30D3D432A7FDF6D005F2E1F /* Color+Extension.swift in Sources */,
 				A30D3D412A7FC59B005F2E1F /* SettingView.swift in Sources */,
 				A3735A252A6CD8EB00644DAE /* CalendarView.swift in Sources */,
 				A30D3D3C2A7FC383005F2E1F /* CalendarDateCell.swift in Sources */,
+				A363A72B2A93422600BE1532 /* UIFont+Extension.swift in Sources */,
 				A3735A232A6CD8EB00644DAE /* LooksLikeGodSaengApp.swift in Sources */,
+				A363A7292A93421500BE1532 /* View+UIFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
